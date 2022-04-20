@@ -1,0 +1,26 @@
+/*****************************************************
+*
+*
+*
+*
+*******************************************************/
+python –version  : Python 3.8.8
+whereis python :  /usr/bin/python
+which python : /Users/psahoo/opt/anaconda3/bin/python
+
+
+Working on now   : https://docs.python.org/3.10/tutorial/controlflow.html
+
+Invoking the Interpreter
+python3.8
+se quit() or Ctrl-D (i.e. EOF) to exit
+The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file.
+
+python -m module [arg]
+
+https://docs.python.org/3.8/using/cmdline.html#using-on-general
+Argument Passing
+import sys
+sys.argv[0]
+
+Interactive Mode
