@@ -12,4 +12,13 @@
 # Why the encoding is mentioned : https://www.python.org/dev/peps/pep-0263/
 ######################################################################
 print("Hello World")
+import turtle
+colors = ['red', 'white', 'blue', 'green', 'orange', 'yellow']
+t = turtle.Pen()
+turtle.bgcolor('purple').
+for x in range(360):
+    t.pencolor(colors[x%6])
+    t.width(x//100 + 1)
+    t.forward(x)
+    t.left(59)
 
